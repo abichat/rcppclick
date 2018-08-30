@@ -8,10 +8,10 @@ The goal of rcppclick is to provide addins for Rcpp scripts.
 Installation
 ------------
 
-You can install the released version of rcppclick from [CRAN](https://CRAN.R-project.org) with:
+To install:
 
 ``` r
-install.packages("rcppclick")
+devtools::install_github("abichat/rcppclick")
 ```
 
 Example
