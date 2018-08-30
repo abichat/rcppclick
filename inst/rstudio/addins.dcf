@@ -1,0 +1,19 @@
+Name: R chunk
+Description: Add a R chunk.
+Binding: insert_rchunk
+Interactive: false
+
+Name: Rccp export
+Description: a Rcpp::export command.
+Binding: insert_rcppexport
+Interactive: false
+
+Name: Remove chunks
+Description: Remove all R chunks.
+Binding: remove_rchunks
+Interactive: false
+
+Name: Comment chunks
+Description: Comment all R chunks.
+Binding: comment_rchunks
+Interactive: false
