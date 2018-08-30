@@ -3,7 +3,7 @@
 rcppclick <img src="man/figures/logo.png" align="right" height=140/>
 ====================================================================
 
-The goal of rcppclick is to provide addins for Rcpp scripts.
+rcppclick makes it easier to write C++ scripts in RStudio.
 
 Installation
 ------------
@@ -14,11 +14,10 @@ To install:
 devtools::install_github("abichat/rcppclick")
 ```
 
-Example
--------
+Features
+--------
 
-This is a basic example which shows you how to solve a common problem:
+rcppclick provides addins to:
 
-``` r
-## basic example code
-```
+-   comment lines inside R chunks,
+-   remove R chunks.
