@@ -1,6 +1,6 @@
 Package: rcppclick
 Title: Provide Addins For Rcpp Scripts
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: person("Antoine", "Bichat", email = "antoine.bichat@mines-nancy.org", role = c("aut", "cre"))
 Description: Provide addins for rcpp scripts.
 Depends: R (>= 3.4.4)

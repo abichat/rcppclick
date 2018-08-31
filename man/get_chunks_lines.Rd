@@ -7,8 +7,9 @@
 get_chunks_lines(script)
 }
 \value{
-The list of lines numbers. Each element represent a chunk.
+A list of lines numbers. Each element represent the line numbers of a chunk.
+Returns \code{NULL} if some chunks are opened but not closed (and reciprocally).
 }
 \description{
-Exctract R chunks lines numbers.
+Exctract the R chunks lines numbers as a list.
 }

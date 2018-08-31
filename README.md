@@ -21,3 +21,24 @@ rcppclick provides addins to:
 
 -   comment lines inside R chunks,
 -   remove R chunks.
+
+#### Further development
+
+In a future release, rcppclick will be able to:
+
+-   uncomment lines inside R chunks,
+-   add a R chunk at the current position,
+-   add a `// [[Rcpp::export]]` command at the current position.
+
+Usage
+-----
+
+#### Addins
+
+rcppclick features can be accessed through the Addins menu:
+
+<img src="man/figures/example.png" align="center"/>
+
+#### Shortcuts
+
+Shortcuts for rcppclick features could be customized in Tools &gt; Modify Keyboard Shortcuts.
