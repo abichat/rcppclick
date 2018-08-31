@@ -9,3 +9,6 @@ remove_rchunks()
 \description{
 Remove all R chunks present in the current document.
 }
+\details{
+Does not remove anything if nested chunks are detected or if some chunks are opened but not closed (and reciprocally).
+}

@@ -4,6 +4,16 @@ Binding: remove_rchunks
 Interactive: false
 
 Name: Comment chunks
-Description: Comment all R chunks.
+Description: Comment all uncommented lines in R chunks.
 Binding: comment_rchunks
+Interactive: false
+
+Name: R chunk
+Description: Insert a R chunk.
+Binding: insert_rchunk
+Interactive: false
+
+Name: Rccp export
+Description: Insert a Rcpp::export line.
+Binding: insert_rcppexport
 Interactive: false
