@@ -24,7 +24,7 @@ rcppclick provides addins to:
 
 #### Further development
 
-In future realease, rcppclick will be able to:
+In a future release, rcppclick will be able to:
 
 -   uncomment lines inside R chunks,
 -   add a R chunk at the current position,
@@ -33,6 +33,12 @@ In future realease, rcppclick will be able to:
 Usage
 -----
 
-rcppclick features could be accessed by clicking on the Addins button:
+#### Addins
+
+rcppclick features can be accessed through the Addins menu:
 
 <img src="man/figures/example.png" align="center"/>
+
+#### Shortcuts
+
+Shortcuts for rcppclick features could be customized in Tools &gt; Modify Keyboard Shortcuts.
