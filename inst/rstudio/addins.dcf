@@ -8,12 +8,7 @@ Description: Comment all uncommented lines in R chunks.
 Binding: comment_rchunks
 Interactive: false
 
-Name: R chunk
-Description: Insert a R chunk.
-Binding: insert_rchunk
-Interactive: false
-
-Name: Rccp export
-Description: Insert a Rcpp::export line.
-Binding: insert_rcppexport
+Name: Uncomment chunks
+Description: Uncomment all commented lines in R chunks.
+Binding: uncomment_rchunks
 Interactive: false
