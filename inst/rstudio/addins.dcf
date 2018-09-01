@@ -12,3 +12,13 @@ Name: Uncomment chunks
 Description: Uncomment all commented lines in R chunks.
 Binding: uncomment_rchunks
 Interactive: false
+
+Name: R chunk
+Description: Add a R chunk.
+Binding: insert_rchunk
+Interactive: false
+
+Name: Rccp export
+Description: a Rcpp::export command.
+Binding: insert_rcppexport
+Interactive: false
