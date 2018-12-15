@@ -1,6 +1,6 @@
 #' Insert a Rcpp::export command.
 #' @description Insert \code{// [[Rcpp::export]]}.
-#' @import rstudioapi
+#' @importFrom rstudioapi getActiveDocumentContext document_range insertText
 #' @importFrom stringr str_detect
 insert_rcppexport <- function(){
 

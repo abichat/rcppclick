@@ -1,7 +1,7 @@
 #' Remove all R chunks.
 #' @description Remove all R chunks present in the current document.
 #' @details Does not remove anything if nested chunks are detected or if some chunks are opened but not closed (and reciprocally).
-#' @import rstudioapi
+#' @importFrom rstudioapi getActiveDocumentContext modifyRange
 remove_rchunks <- function(){
   script <- getActiveDocumentContext()$contents
   list <- get_chunks_lines(script)

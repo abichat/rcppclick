@@ -2,7 +2,6 @@
 #' @description Exctract the R chunks lines numbers as a list.
 #' @return A list of lines numbers. Each element represent the line numbers of a chunk.
 #' Returns \code{NULL} if some chunks are opened but not closed (and reciprocally).
-#' @import rstudioapi
 #' @importFrom stringr str_which
 get_chunks_lines <- function(script){
 

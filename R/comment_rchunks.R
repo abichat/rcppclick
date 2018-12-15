@@ -2,7 +2,7 @@
 #' @description Comment all R chunks present in the current document.
 #' @details Does not comment already commented lines.
 #' Does not comment anything if some chunks are opened but not closed (and reciprocally).
-#' @import rstudioapi
+#' @importFrom rstudioapi getActiveDocumentContext insertText
 #' @importFrom stringr str_which
 comment_rchunks <- function(){
 

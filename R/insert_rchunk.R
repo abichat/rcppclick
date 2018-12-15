@@ -4,7 +4,7 @@
 #' \code{/*** R}
 #'
 #' \code{*/}
-#' @import rstudioapi
+#' @importFrom rstudioapi getActiveDocumentContext document_range insertText
 #' @importFrom stringr str_detect
 insert_rchunk <- function(){
 

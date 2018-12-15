@@ -1,7 +1,7 @@
 #' Uncomment all R chunks.
 #' @description Uncomment all commented R chunks present in the current document.
 #' @details Does not uncomment anything if some chunks are opened but not closed (and reciprocally).
-#' @import rstudioapi
+#' @importFrom rstudioapi getActiveDocumentContext modifyRange
 #' @importFrom stringr str_which
 uncomment_rchunks <- function(){
 
