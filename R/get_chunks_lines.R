@@ -1,5 +1,6 @@
 #' Exctract R chunks lines numbers.
 #' @description Exctract the R chunks lines numbers as a list.
+#' @param script The contents of the document.
 #' @return A list of lines numbers. Each element represent the line numbers of a chunk.
 #' Returns \code{NULL} if some chunks are opened but not closed (and reciprocally).
 #' @importFrom stringr str_which

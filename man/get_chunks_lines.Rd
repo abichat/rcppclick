@@ -6,6 +6,9 @@
 \usage{
 get_chunks_lines(script)
 }
+\arguments{
+\item{script}{The contents of the document.}
+}
 \value{
 A list of lines numbers. Each element represent the line numbers of a chunk.
 Returns \code{NULL} if some chunks are opened but not closed (and reciprocally).
